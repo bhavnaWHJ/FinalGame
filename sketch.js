@@ -73,6 +73,7 @@ text ("press "+"S "+"start",width/2,500)
 }
 if(keyDown("s")){
     gameState=1;
+    boy.y = 500;
     console.log(boy.y);
 }
  if(gameState===1){
